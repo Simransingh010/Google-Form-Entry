@@ -1,0 +1,1 @@
+API_KEY = "AIzaSyClyzC7Auyy06NsOWJMwRxwiUfg1xBa-YQ"  # Replace with your actual API key 

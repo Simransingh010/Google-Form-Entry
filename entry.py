@@ -18,9 +18,10 @@ from selenium_stealth import stealth
 import google.generativeai as genai
 import json
 import re
+from config import API_KEY # Import API_KEY from config.py
 
 # Configure the Gemini API
-API_KEY = "AIzaSyClyzC7Auyy06NsOWJMwRxwiUfg1xBa-YQ"  # Replace with your actual API key
+# API_KEY = "AIzaSyClyzC7Auyy06NsOWJMwRxwiUfg1xBa-YQ"  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 # Google Form URL
